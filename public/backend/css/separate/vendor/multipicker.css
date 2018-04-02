@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+.checklist {
+  border-color: #d8e2e7;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.checklist > * {
+  color: #22a146;
+}
+.checklist > .active {
+  border: 2px solid #22a146;
+  color: #343434;
+}
+.checklist > .right-side {
+  border-left: 2px solid transparent;
+}
+.checklist > .left-side {
+  border-right: 2px solid transparent;
+}
+.checklist > .center-side {
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+.checklist.vertical > .right-side {
+  border-left-color: #22a146;
+}
+.checklist.vertical > .left-side {
+  border-right-color: #22a146;
+}
+.checklist.vertical > .center-side {
+  border-left-color: #22a146;
+  border-right-color: #22a146;
+}
+.checklist.vertical {
+  width: 48px;
+  padding: 3px 5px;
+}
